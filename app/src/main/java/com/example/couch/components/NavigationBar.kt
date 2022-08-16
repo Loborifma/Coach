@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
@@ -37,7 +38,7 @@ fun NavigationBar(
         val currentDestination = navBackStackEntry?.destination
         items.forEach{
             BottomNavigationItem(
-                icon = { Icon(imageVector = it.icon, contentDescription = null) },
+                icon = { Icon(painter = painterResource(it.icon), contentDescription = null) },
                 label = { Text(text = stringResource(it.resourceId))},
                 selected = currentDestination?.hierarchy?.any {curDes -> curDes.route == it.route } == true,
                 onClick = {

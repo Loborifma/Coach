@@ -5,6 +5,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.couch.report.screen.ReportScreen
 import com.example.couch.search.screen.SearchScreen
 import com.example.couch.training.screen.TrainingScreen
 
@@ -25,6 +26,9 @@ fun CoachNavHost(
         }
         composable(route = Screen.Search.route){
             SearchScreen()
+        }
+        composable(route = Screen.Report.route){
+            ReportScreen()
         }
     }
 }

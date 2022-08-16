@@ -45,7 +45,10 @@ fun ReportScreen(modifier: Modifier = Modifier){
                 colorSubtext = Grey50,
                 fontWeight = FontWeight.Bold
             )
-            HistorySection(title = R.string.report_title_history) {
+            HistorySection(
+                title = R.string.report_title_history,
+                subtitle = R.string.report_subtitle_more
+            ) {
                 HistoryRow()
             }
         }

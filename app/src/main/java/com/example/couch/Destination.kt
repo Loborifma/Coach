@@ -25,12 +25,14 @@ import androidx.compose.ui.graphics.vector.ImageVector
 
 //val coachTabRowScreens = listOf(Training, Search)
 
-sealed class Screen(val route: String, @StringRes val resourceId: Int, val icon: ImageVector){
-    object Training : Screen("Training", R.string.bottom_navigation_title_train, Icons.Default.Home)
-    object Search : Screen("Search", R.string.bottom_navigation_title_search, Icons.Default.Search)
+sealed class Screen(val route: String, @StringRes val resourceId: Int, @DrawableRes val icon: Int){
+    object Training : Screen("Training", R.string.bottom_navigation_title_train, R.drawable.ic_baseline_home_24)
+    object Search : Screen("Search", R.string.bottom_navigation_title_search, R.drawable.ic_baseline_search_24)
+    object Report : Screen("Report", R.string.bottom_navigation_title_info, R.drawable.ic_baseline_equalizer_24)
 }
 
 val items = listOf(
     Screen.Training,
-    Screen.Search
+    Screen.Search,
+    Screen.Report
 )
