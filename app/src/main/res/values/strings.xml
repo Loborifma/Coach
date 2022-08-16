@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Couch</string>
+
+<!--  components  -->
+
+    <!--  bottom navigation  -->
+
+    <string name="bottom_navigation_title_train">Training</string>
+    <string name="bottom_navigation_title_search">Search</string>
+    <string name="bottom_navigation_title_info">Report</string>
+    <string name="bottom_navigation_title_settings">Settings</string>
+
+    <!--  top app bar  -->
+
+    <string name="top_app_bar_training_title">TRAINING FOR HOME</string>
+    <string name="top_app_bar_training_icon">buy premium</string>
+    <string name="top_app_bar_search_title">SEARCH</string>
+    <string name="top_app_bar_search_icon">history</string>
+
+<!--  training screen  -->
+
+    <!--  training main info  -->
+
+    <string name="training_main_info_train">TRAINING</string>
+    <string name="training_main_info_kkal">KKAL</string>
+    <string name="training_main_info_minutes">MINUTES</string>
+
+    <!--  target for week  -->
+
+    <string name="target_for_week_title">TARGET FOR WEEK</string>
+    <string name="target_for_week_description">Set a goal for the week for the best effect</string>
+    <string name="target_for_week_button_text">SET TARGET</string>
+
+    <!--  training section  -->
+
+    <string name="program_7x4">PROGRAM 7x4</string>
+    <string name="all_body_program_7x4">ALL BODY</string>
+    <string name="lower_body_program_7x4">LOWER PART BODY</string>
+    <string name="beginner">Beginner</string>
+    <string name="beginner_abs">Beginner abs</string>
+    <string name="beginner_chest">Beginner chest</string>
+    <string name="beginner_shoulders">Beginner shoulders</string>
+    <string name="continued">Continued</string>
+    <string name="continued_abs">Continued abs</string>
+    <string name="continued_chest">Continued chest</string>
+    <string name="continued_shoulders">Continued shoulders</string>
+    <string name="advanced">advanced</string>
+    <string name="advanced_abs">advanced abs</string>
+    <string name="advanced_chest">advanced chest</string>
+    <string name="advanced_shoulders">advanced shoulders</string>
+    <string name="other_training">Other training</string>
+    <string name="go_over">Go over</string>
+
+<!--  search screen  -->
+
+    <string name="tabata">4-MINUTES tabata</string>
+    <string name="tabata_subtext">Most effective fat burning workout</string>
+    <string name="workout_with_tools">With tools</string>
+
+    <!--  additional work  -->
+
+    <string name="additional_work">Additional work</string>
+    <string name="additional_work_chest">Chest</string>
+    <string name="additional_work_arms_shoulders">Arms and shoulders</string>
+    <string name="additional_work_butt_and_legs">Butt and legs</string>
+    <string name="additional_works_abs">Abs</string>
+
+    <!--  best for you card  -->
+
+    <string name="best_for_you">Best for you</string>
+    <string name="wiit_for_belly">WIIT: burn fat from belly</string>
+    <string name="fat_burning_no_jumps">Fat burning(WITHOUT JUMPS)</string>
+    <string name="wiit_for_chest">WIIT for delete fat from chest</string>
+    <string name="wiit_for_abs">Powerful WIIT for abs</string>
+    <string name="workout_for_today_text">Best workout for quarantine</string>
+    <string name="workout_for_today_subtext">5 workout(-s)</string>
+    <string name="workout_for_beginners">For beginners</string>
+    <string name="quick_workout">Quick workout</string>
+
+    <!--  simple card  -->
+
+    <string name="placeholder_for_program">Program</string>
+    <string name="only_4_exercise">ONLY 4 move for abs</string>
+    <string name="workout_for_leg_no_jump">Workout for legs (WITHOUT JUMPS)</string>
+    <string name="workout_for_arms_no_push_ups">Workout for arms (WITHOUT PUSH-UPS)</string>
+    <string name="workout_for_abs_no_twisting">Workout for abs (WITHOUT TWISTING)</string>
+    <string name="wide_shoulders">Wide shoulders</string>
+
+    <!--  sleeping card  -->
+
+    <string name="sleep">Sleep</string>
+    <string name="stretch_all_body">Stretching for all body</string>
+    <string name="morning_stretch">Morning stretch</string>
+    <string name="relax_for_shoulders">Relax for shoulders</string>
+    <string name="stretch_before_sleep">Stretching before sleep</string>
+    <string name="stretch_for_neck_and_shoulders">Stretch for neck and shoulders</string>
+    <string name="stretch_to_remove_pain_in_kneel">Stretch to remove pain in kneel</string>
+    <string name="stretching_for_upper_body_part">Stretch for upper body</string>
+    <string name="stretch_for_lower_part_body">Stretch for lower body</string>
+
+<!--  info screen  -->
+
+    <!--  history  -->
+
+    <string name="report_title_history">History</string>
+    <string name="report_subtitle_more">MORE</string>
+    <string name="report_title_weight">Weight</string>
+    <string name="report_subtitle_notes">Notes</string>
+    <string name="report_subtitle_add">+</string>
+    <string name="report_subtitle_edit">EDIT</string>
+    <string name="report_title_bmi">BMI(kg/m²): </string>
+    <string name="report_title_height">Height</string>
+
+    <!--  history card  -->
+
+    <string name="monday">Mo</string>
+    <string name="tuesday">Tu</string>
+    <string name="wednesday">We</string>
+    <string name="thursday">Th</string>
+    <string name="friday">Fr</string>
+    <string name="saturday">Sa</string>
+    <string name="sunday">Su</string>
+
+<!--  helper strings  -->
+
+    <string name="empty_string"> </string>
+    <string name="min">min</string>
+</resources>
