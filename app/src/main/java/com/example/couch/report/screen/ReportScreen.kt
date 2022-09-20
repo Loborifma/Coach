@@ -51,6 +51,12 @@ fun ReportScreen(modifier: Modifier = Modifier){
             ) {
                 HistoryRow()
             }
+            HomeSectionReport(
+                title = R.string.report_title_weight,
+                subtitle = R.string.report_subtitle_add
+            ) {
+
+            }
         }
     }
 }

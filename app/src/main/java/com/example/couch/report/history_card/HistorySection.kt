@@ -44,7 +44,7 @@ fun HistorySection(
         content()
         Text(
             text = stringResource(R.string.report_subtitle_notes).uppercase(),
-            fontSize = 21.sp,
+            fontSize = 18.sp,
             fontWeight = FontWeight.W300,
             color = DarkBlue,
             modifier = Modifier
